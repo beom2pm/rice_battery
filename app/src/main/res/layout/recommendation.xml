@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="오늘의 Menu 추천"
+        android:textStyle="bold"
+        android:textColor="#FFBF00"
+        android:fontFamily="@font/poemwith"
+        android:layout_marginTop="15dp"
+        android:textSize="25dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:fontFamily="@font/poemwith"
+        android:layout_weight="1"
+        android:gravity="right"
+        android:text="다음 식사는"/>
+    <TextView
+        android:id="@+id/menu"
+        android:fontFamily="@font/poemwith"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="삼계탕"
+        android:textStyle="bold"
+        android:textSize="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:fontFamily="@font/poemwith"
+            android:layout_weight="1"
+            android:text="어때요?"/>
+</LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/food" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp">
+    <Button
+        android:id="@+id/other_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poemwith"
+        android:textStyle="bold"
+        android:text="다른 메뉴 추천"/>
+
+    <Button
+        android:id="@+id/store_check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poemwith"
+        android:textStyle="bold"
+        android:text="주변 식당 찾기" />
+    </LinearLayout>
+</LinearLayout>
