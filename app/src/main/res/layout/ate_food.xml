@@ -34,7 +34,6 @@
         android:layout_height="match_parent"
         android:fontFamily="@font/poemwith"
         android:textFilterEnabled="true">
-
     </ListView>
 
 
